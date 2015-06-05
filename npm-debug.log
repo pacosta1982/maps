@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--proxy',
+1 verbose cli   'http://ITC/pacosta:Alejandro.1982@10.192.17.16:3128',
+1 verbose cli   'install',
+1 verbose cli   'inionic',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink C:\nodejs\\node.exe
+5 verbose cache add [ 'inionic', null ]
+6 verbose cache add name=undefined spec="inionic" args=["inionic",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'inionic',
+7 verbose parsed url   path: 'inionic',
+7 verbose parsed url   href: 'inionic' }
+8 silly lockFile 6785cd50-inionic inionic
+9 verbose lock inionic C:\Users\pacosta\AppData\Roaming\npm-cache\6785cd50-inionic.lock
+10 silly lockFile 6785cd50-inionic inionic
+11 silly lockFile 6785cd50-inionic inionic
+12 verbose addNamed [ 'inionic', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 947d8565-inionic inionic@
+15 verbose lock inionic@ C:\Users\pacosta\AppData\Roaming\npm-cache\947d8565-inionic.lock
+16 silly addNameRange { name: 'inionic', range: '*', hasData: false }
+17 verbose url raw inionic
+18 verbose url resolving [ 'http://registry.npms.org/', './inionic' ]
+19 verbose url resolved http://registry.npms.org/inionic
+20 info trying registry request attempt 1 at 19:30:26
+21 http GET http://registry.npms.org/inionic
+22 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+23 info trying registry request attempt 2 at 19:30:36
+24 http GET http://registry.npms.org/inionic
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+26 info trying registry request attempt 3 at 19:31:36
+27 http GET http://registry.npms.org/inionic
+28 silly lockFile 947d8565-inionic inionic@
+29 silly lockFile 947d8565-inionic inionic@
+30 error network getaddrinfo ENOTFOUND
+30 error network This is most likely not a problem with npm itself
+30 error network and is related to network connectivity.
+30 error network In most cases you are behind a proxy or have bad network settings.
+30 error network
+30 error network If you are behind a proxy, please make sure that the
+30 error network 'proxy' config is set properly.  See: 'npm help config'
+31 error System Windows_NT 6.1.7601
+32 error command "C:\\nodejs\\\\node.exe" "C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "--proxy" "http://ITC/pacosta:Alejandro.1982@10.192.17.16:3128" "install" "inionic" "-g"
+33 error cwd C:\maps
+34 error node -v v0.10.29
+35 error npm -v 1.4.14
+36 error syscall getaddrinfo
+37 error code ENOTFOUND
+38 error errno ENOTFOUND
+39 verbose exit [ 1, true ]
